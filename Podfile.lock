@@ -1,0 +1,95 @@
+PODS:
+  - ELUtility (0.1.0):
+    - ELUtility/Authorization (= 0.1.0)
+    - ELUtility/Category (= 0.1.0)
+    - ELUtility/DataBase (= 0.1.0)
+    - ELUtility/DeviceUtility (= 0.1.0)
+    - ELUtility/Encrypt (= 0.1.0)
+    - ELUtility/Regular (= 0.1.0)
+  - ELUtility/Authorization (0.1.0)
+  - ELUtility/Category (0.1.0)
+  - ELUtility/DataBase (0.1.0):
+    - FMDB
+  - ELUtility/DeviceUtility (0.1.0)
+  - ELUtility/Encrypt (0.1.0)
+  - ELUtility/Regular (0.1.0)
+  - FMDB (2.7.2):
+    - FMDB/standard (= 2.7.2)
+  - FMDB/standard (2.7.2)
+  - IQKeyboardManager (6.0.2)
+  - LoginMoudle (0.0.1):
+    - ELUtility
+    - IQKeyboardManager
+    - LoginMoudle/Class (= 0.0.1)
+    - LoginMoudle/Service (= 0.0.1)
+    - Masonry
+    - MediaService
+    - ModuleProtocols
+    - ReactiveCocoa
+  - LoginMoudle/Class (0.0.1):
+    - ELUtility
+    - IQKeyboardManager
+    - Masonry
+    - MediaService
+    - ModuleProtocols
+    - ReactiveCocoa
+  - LoginMoudle/Service (0.0.1):
+    - ELUtility
+    - IQKeyboardManager
+    - Masonry
+    - MediaService
+    - ModuleProtocols
+    - ReactiveCocoa
+  - Masonry (1.1.0)
+  - MediaService (0.0.1)
+  - ModuleProtocols (0.0.1)
+  - ReactiveCocoa (2.5.2):
+    - ReactiveCocoa/UI (= 2.5.2)
+  - ReactiveCocoa/Core (2.5.2):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.5.2)
+  - ReactiveCocoa/UI (2.5.2):
+    - ReactiveCocoa/Core
+
+DEPENDENCIES:
+  - ELUtility (from `https://github.com/linlinyin1991/ELUtility.git`, tag `0.1.0`)
+  - LoginMoudle (from `./LocalRepo/LoginMoudle`)
+  - MediaService (from `./LocalRepo/MediaService`)
+  - ModuleProtocols (from `./LocalRepo/ModuleProtocols`)
+  - ReactiveCocoa (from `https://github.com/zhao0/ReactiveCocoa.git`, tag `2.5.2`)
+
+EXTERNAL SOURCES:
+  ELUtility:
+    :git: https://github.com/linlinyin1991/ELUtility.git
+    :tag: 0.1.0
+  LoginMoudle:
+    :path: ./LocalRepo/LoginMoudle
+  MediaService:
+    :path: ./LocalRepo/MediaService
+  ModuleProtocols:
+    :path: ./LocalRepo/ModuleProtocols
+  ReactiveCocoa:
+    :git: https://github.com/zhao0/ReactiveCocoa.git
+    :tag: 2.5.2
+
+CHECKOUT OPTIONS:
+  ELUtility:
+    :git: https://github.com/linlinyin1991/ELUtility.git
+    :tag: 0.1.0
+  ReactiveCocoa:
+    :git: https://github.com/zhao0/ReactiveCocoa.git
+    :tag: 2.5.2
+
+SPEC CHECKSUMS:
+  ELUtility: 434e2eff7f9e46f00b46665b860f9d689c45764f
+  FMDB: 6198a90e7b6900cfc046e6bc0ef6ebb7be9236aa
+  IQKeyboardManager: c49d59e358aeeffaa0280aa305093c2b194d2607
+  LoginMoudle: 5c540999d23c388369c6dad97420ad09a704d12e
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MediaService: d15f3023f98a9eea142e47d0d9f161d3aa019b40
+  ModuleProtocols: 71e61a4bccb27ec9e696e8a5e6659ab6e86e7ed7
+  ReactiveCocoa: 3ff25b1bd992ac79c5c79b26b6c0c1713b715bb2
+
+PODFILE CHECKSUM: 968a13cdb0fab9cd2964115f0abbb7a32671ec16
+
+COCOAPODS: 1.4.0
